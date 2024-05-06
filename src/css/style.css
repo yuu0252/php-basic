@@ -46,3 +46,14 @@ form label {
 label span {
   color: red;
 }
+
+/* where-like.php */
+.search-form {
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.search-form input:first-child {
+  margin-right: 0.5rem;
+}
