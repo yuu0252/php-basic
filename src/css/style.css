@@ -62,3 +62,25 @@ label span {
   max-width: 1000px;
   table-layout: auto;
 }
+
+/* order-by.php */
+.sort {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sort-btn {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: #6c757d;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgb(0 0 0 / 15%);
+  transition: 0.3s;
+}
+
+.sort-btn:hover {
+  opacity: 0.8;
+}
