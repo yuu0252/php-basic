@@ -34,6 +34,7 @@ try {
             <th>年齢</th>
             <th>住所</th>
             <th>編集</th>
+            <th>削除</th>
         </tr>
         <?php
         foreach ($results as $result) {
@@ -46,6 +47,7 @@ try {
                 <td>{$result['age']}</td>
                 <td>{$result['address']}</td>
                 <td><a href='update.php?id={$result['id']}'>編集</a></td>
+                <td><a href='delete.php?id={$result['id']}'>削除</a></td>
                 </tr>
             ";
             echo $table_row;
